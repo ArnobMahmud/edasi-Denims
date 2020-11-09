@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&display=swap");
+
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&display=swap");
+
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.logo {
+  max-width: 20%;
+  margin: auto;
+  padding: 15px 0px;
+}
+
+.banner {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.box {
+  margin: 80px 0px;
+}
+.banner-content {
+  background-color: rgba(255, 255, 255, 0.445);
+  padding: 100px 60px;
+}
+.banner-content h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.banner-content strong {
+  display: block;
+  padding: 20px 0px 10px;
+  font-size: 20px;
+}
+.banner-content h2 {
+  padding: 10px 0px;
+}
+.banner-content a {
+  display: inline-block;
+  background-color: black;
+  padding: 15px 30px;
+  color: white;
+  font-size: 18px;
+}
+hr {
+  background-color: black;
+}
+
+.topics {
+  padding: 100px 0px;
+}
+.topics p {
+  font-size: 20px;
+  color: black;
+}
+
+.topics-details img {
+  padding: 0px 5px;
+  max-width: 100%;
+}
+
+.topics-details {
+  color: #394046;
+}
+.topics-details h3 {
+  font-size: 16px;
+  color: #394046;
+  font-weight: 700;
+  padding: 10px 0px;
+  letter-spacing: 3px;
+}
+
+.topics-details hr {
+  padding: 0px;
+  width: 15%;
+  background-color: black;
+  padding: 0.5px;
+}
+
+.topics-details p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.product-details {
+  padding: 40px 0px;
+}
+
+.details-sec img {
+  width: 100%;
+}
+
+.properties {
+  display: block;
+}
+
+.properties ul {
+  line-height: 2;
+}
+
+.properties ul li {
+  font-size: 18px;
+  font-weight: 600;
+}
+.properties ul li i {
+  padding-right: 10px;
+}
+
+.fuze {
+  padding: 40px 0px 80px;
+}
+.fuze img {
+  margin: auto;
+}
+
+.fuze h5 {
+  padding: 30px 0px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+footer {
+  padding-top: 40px;
+}
+footer hr {
+  width: 65%;
+}
+
+footer h1 {
+  font-size: 40px;
+  padding: 20px 0px;
+}
+footer h4 {
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+footer a {
+  display: inline-block;
+  padding: 15px 20px;
+  color: white;
+  background-color: black;
+  font-size: 17px;
+}
+footer p {
+  padding: 30px 0px 10px;
+  font-size: 18px;
+  color: gray;
+}
