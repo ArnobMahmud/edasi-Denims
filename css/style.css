@@ -120,9 +120,9 @@ hr {
 .product-sec-2 hr{}
 .product-sec-2 p{}
 .product-sec-2 h3{}
+
 .details-sec img {
   max-width: 100%;
-  object-fit: cover;
   padding-left: 0px !important;
 }
 
