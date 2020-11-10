@@ -9,6 +9,7 @@
   .product-sec-2 hr {
     margin: 15px auto;
   }
+
 }
 
 @media (min-width: 992px) {
@@ -114,6 +115,10 @@
   .properties ul {
     line-height: 2.5;
   }
+  .big-img{
+    background-image: url(../images/big1.png);
+
+  }
   .fuze {
     padding: 40px;
   }
@@ -149,6 +154,11 @@
 }
 
 @media (min-width: 576px) {
+  .big-img{
+    background-image: url(../images/big1.png);
+    background-position: center;
+    background-size: cover;
+  }
   .banner-content {
     background-color: rgba(255, 255, 255, 0.445);
     padding: 50px;
@@ -239,6 +249,9 @@
 }
 
 @media (min-width: 400px) {
+  .big-img{
+    background-image: url(../images/big1.png);
+  }
   .banner-content {
     background-color: rgba(255, 255, 255, 0.445);
     padding: 40px 60px;
@@ -347,6 +360,9 @@
 /* Android + iOS response */
 
 @media (min-width: 350px) {
+  .big-img{
+    background-image: url(../images/big1.png);
+  }
   .banner-content h1 {
     font-size: 17px;
     font-weight: 700;

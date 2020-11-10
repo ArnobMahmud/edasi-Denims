@@ -26,6 +26,9 @@ a {
   text-decoration: none;
   display: block;
 }
+.justify-content-end{
+  justify-content: flex-end !important;
+}
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -33,14 +36,14 @@ body {
 .logo{
   max-width: 20%;
   margin: auto;
-  padding: 15px 0px;
+  padding: 5px 0px;
 }
 
 .banner {
   background-image: url(../images/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 100%;
+  background-attachment: fixed;
 }
 
 .box {
@@ -121,27 +124,23 @@ hr {
 .product-sec-2 p{}
 .product-sec-2 h3{}
 
-.details-sec img {
-  max-width: 100%;
-  padding-left: 0px !important;
-}
-
-.properties {
-  display: block;
-}
-
 .properties ul {
   line-height: 2.5;
 }
 
 .properties ul li {
-  font-size: 18px;
+  font-size: 50px;
   font-weight: 600;
 }
 .properties ul li i {
   padding-right: 10px;
 }
-
+.big-img{
+  background-image: url(../images/big1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .properties ul li h1{}
 
 .fuze {
